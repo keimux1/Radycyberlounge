@@ -1,0 +1,13 @@
+@import "tailwindcss";
+
+@theme {
+  --auto-Run: autoRun 10s linear infinite;
+  @keyframes autoRun {
+    from{
+      left:100%;
+    }
+    50% {
+      left: -320px;
+    }
+  }
+}
